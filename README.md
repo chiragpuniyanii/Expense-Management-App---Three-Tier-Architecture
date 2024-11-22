@@ -127,8 +127,10 @@ sudo systemctl start mysql
 *Setting a root password:*
 
 ```bash
+mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ExpenseApp@1';
 FLUSH PRIVILEGES;
+
 ```
 
 Set the root password to ExpenseApp@1 (or your preferred password).
@@ -172,6 +174,7 @@ cd /app/expense-backend
 
 ```bash
 sudo npm install
+```
 
 *Create a Systemd service for the backend:*
 
