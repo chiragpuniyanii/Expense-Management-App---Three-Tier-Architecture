@@ -219,6 +219,12 @@ sudo apt install mysql-client -y
 mysql -h localhost -u root -pExpenseApp@1 < /app/schema/backend.sql
 ```
 
+
+![image](https://github.com/user-attachments/assets/7be300c5-fa07-451f-ac00-407231f2e3dc)
+
+![image](https://github.com/user-attachments/assets/7c7758a2-43c1-4f8c-8766-31b0e22b623e)
+
+
 ## 📝 Recap
 - Frontend is served via Nginx.
 - Backend is a Node.js service that interacts with the MySQL database.
