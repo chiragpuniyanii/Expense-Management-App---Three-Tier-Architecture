@@ -13,7 +13,7 @@ This README will guide you through the steps to deploy the **Three-Tier Expense 
 ## 🛠 Prerequisites
 Before starting, make sure you have the following:
 
-- An AWS EC2 instance running Ubuntu.
+- AWS EC2 Instance: Launch a t2.medium instance with Ubuntu.
 - Security groups configured to allow:
     - HTTP (port 80) for web traffic.
     - MySQL (port 3306) for database access.
