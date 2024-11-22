@@ -216,6 +216,19 @@ sudo systemctl start backend
 sudo apt install mysql-client -y
 ```
 
+*Verify MySQL User Permissions: Log into MySQL as the root user and verify that the expense user has the proper permissions:*
+
+```bash
+mysql -u root -p
+```
+*Then, run the following to ensure expense user has correct privileges:*
+
+```sql
+GRANT ALL PRIVILEGES ON *.* TO 'expense'@'localhost' IDENTIFIED BY 'ExpenseApp@1';
+FLUSH PRIVILEGES;
+```
+Replace 'ExpenseApp@1' with the password you're using for the expense user.
+
 *Load the schema into MySQL:*
 
 ```bash
