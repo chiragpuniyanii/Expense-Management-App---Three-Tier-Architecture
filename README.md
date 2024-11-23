@@ -236,7 +236,7 @@ Replace 'ExpenseApp@1' with the password you're using for the expense user.
 *Load the schema into MySQL:*
 
 ```bash
-mysql -h localhost -u root -pExpenseApp@1 < /app/schema/backend.sql
+mysql -h localhost -u root -pExpenseApp@1 < /app/expense-backend/schema/backend.sql
 ```
 
 
