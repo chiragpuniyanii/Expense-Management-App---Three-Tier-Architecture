@@ -124,10 +124,14 @@ sudo systemctl enable mysql
 sudo systemctl start mysql
 ```
 
+*Login Into MYSQL*
+```
+mysql
+```
+
 *Setting a root password:*
 
 ```bash
-mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ExpenseApp@1';
 FLUSH PRIVILEGES;
 
