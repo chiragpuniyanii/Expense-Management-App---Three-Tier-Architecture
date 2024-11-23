@@ -196,7 +196,7 @@ Description=Backend Service
 [Service]
 User=expense
 Environment=DB_HOST="localhost"
-ExecStart=/usr/bin/node /app/index.js
+ExecStart=/usr/bin/node /app/expense-backend/index.js
 SyslogIdentifier=backend
 
 [Install]
